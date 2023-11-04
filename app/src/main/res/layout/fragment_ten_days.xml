@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TenDays"
+    android:background="#83C6E4"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/search_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#83C6E4"
+                />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerviewdays"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2FB4C5"
+                >
+
+            </androidx.recyclerview.widget.RecyclerView>
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+
+</FrameLayout>
